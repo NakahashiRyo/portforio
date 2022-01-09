@@ -12,6 +12,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/fb8f424287.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" media="screen" href="portforio.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="responsive.css" />
 
     </head>
 
@@ -30,29 +31,40 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 
                 <div class="nav">
                     <ul class="nav-list">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Hobby</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#hobby">Hobby</a></li>
+                        <li><a href="#works">Works</a></li>
                     </ul>
+                </div>
+                
+                <div class="respons">
+                    <table width="100%">
+                        <tr>
+                            <td><a href="#about">About</a></td>
+                            <td><a href="#skills">Skills</a></td>
+                            <td><a href="#hobby">Hobby</a></td>
+                            <td><a href="#works">Works</a></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </header>
 
         <div class="top-picture">
-            <img class="main" src="picture/aaa.jpg"/>
+            <img class="main" src="picture/top-photo.jpg"/>
         </div>
 
         <div class="about">
             <div class="container">
-                <h1 class="topick">About</h1>
+                <h1 class="topick" id="about">About</h1>
                 <div class="contents">
                     <div class="photo">
                         <img class="icon" src ="picture/icon.png"/>
                     </div>
                     <div class="about-text">
                         <p class="name">中橋　諒　Nakakahshi Ryo</p>
-                        <p><i class="fab fa-twitter-square fa-2x"></i>Twitter:
+                        <i class="fab fa-twitter-square fa-2x"></i>Twitter:
                             <a href="https://twitter.com/chuppon15">@chuppon15</a><br>
                             <i class="fab fa-instagram fa-2x"></i>Instagram:
                             <a href="https://www.instagram.com/chuppon15/">@chuppon15</a><br>
@@ -69,7 +81,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 
         <div class="skills">
             <div class="container">
-                <h1 class="topick">Skills</h1>
+                <h1 class="topick" id="skills">Skills</h1>
                 <div class="contents">
                     <div class="skills-contents">
                         <h1 classs="skills-title">コーディング</h1>
@@ -98,7 +110,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 
         <div class="hobby">
             <div class="container">
-                <h1 class="topick">Hobby</h1>
+                <h1 class="topick" id="hobby">Hobby</h1>
                 <div class="first-contents">
                     <div class="hobby-contents">
                         <h1 classs="hobby-title">ギター</h1>
@@ -166,7 +178,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                     
                     <div class="works">
                         <div class="container">
-                            <h1 class="topick">works</h1>
+                            <h1 class="topick" id="works">works</h1>
                             <div class="oneperson-contents">
                                 <div class="works-contents">
                                  <video src="BOOKHOUSE.mp4"controls></video>

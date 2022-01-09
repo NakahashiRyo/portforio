@@ -138,6 +138,9 @@ header {
 .header-right{
     margin-left:  auto;
 }
+.header-right .fab{
+    color: #cc99ffccccff;
+}
 
 .header-right  i{
     padding: 0 5px;
@@ -169,7 +172,11 @@ header {
 .nav-list li:hover{
     text-decoration: underline;
 }
-
+.top-picture{
+     padding-top: 10px;
+    width: 100%;
+    height: 50%;
+}
 .main{
     padding-top: 10px;
     width: 100%;
@@ -188,14 +195,19 @@ header {
     width: 250px;
 }
 
-.about-text p a{
+.about-text a{
     text-decoration: none;
     opacity: 0.7;
 }
 
-.about-text p a:hover{
+.about-text p i{
+    padding-top: 0px;
+}
+
+.about-text a:hover{
     text-decoration: none;
     opacity: 1;
+      color: blue;
 }
 
 
@@ -205,11 +217,13 @@ header {
 
 .about-text {
     font-size: 18px;
-    padding-left: 80px;
+    padding:10px 0 0 80px;
+    
 }
 
 .about-text .fab {
-    padding-right: 10px;
+    padding:10px 10px 0 10px;
+    color: #ccccff;
 }
 
 .profile{
@@ -217,15 +231,8 @@ header {
     padding-top: 40px;
 }
 
-.about-text a{
-    opacity: 0.8;
-}
 
-.about-text a:hover{
-    opacity: 1.0;
-    color: blue;
-    text-decoration: underline;
-}
+
 
 .skills-contents{
     width: 40%;
@@ -300,7 +307,7 @@ header {
 }
 
 video{
-    width: 100%;
+    width: 80%;
 }
 
 .works-contents h1{
@@ -309,6 +316,6 @@ video{
 
 .works-text{
     text-align: left;
-    width: 30%;
+    width: 70%;
     margin: 0 auto;
 }

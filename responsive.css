@@ -1,0 +1,113 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2022/01/09, 23:14:17
+    Author     : towak
+*/
+
+@media(max-width:600px){
+    .container{
+        width: 100%;
+    }
+    
+    .header-left h1{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+header{
+    padding-top: 15px;
+}
+
+.header-right{
+    margin-left:  auto;
+    padding: 0 20px 0 0;
+}  
+
+.nav-list{
+    display: flex;
+    padding-top: 10px;
+    justify-content: flex-end;
+}
+
+.nav-list{
+    display: none;
+}
+
+.respons{
+    padding-top: 20px;
+}
+
+.respons td{
+    border: solid 2px;
+    text-align: center;
+    padding: 5px;
+}
+
+.respons a{
+    letter-spacing: 3px;
+    display: block;
+     text-decoration: none;
+     color: #000;
+}
+
+.contents{
+    display: block;
+}
+.first-contents{
+    display: none;
+}
+.second-contents{
+    display: none;
+}
+.oneperson-contents{
+    display: none;
+}
+.group-contents{
+    display: none;
+}
+.icon{
+    display: none;
+}
+
+.about-text{
+    padding-left: 0px;
+    width: 85%;
+    margin: 0 auto;
+}
+.skills-contents{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.skills-text{
+    text-align: center;
+}
+.hobby-contents{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.hobby-text{
+    text-align: center;
+}
+.works-contents{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.works-text{
+    text-align: center;
+}
+
+}
+
+
+
+@media(min-width:600px){
+    .respons{
+        display: none;
+    }
+    .respons a{
+    display: none;
+}
+}
