@@ -327,9 +327,10 @@ video{
 
 .foot{
     background-color: #000;
+    text-align: center;
     
 }
 .foot a{
-    text-align: center;
     color: #cccccc;
+    text-decoration: none;
 }
