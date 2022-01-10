@@ -309,8 +309,8 @@ header {
 }
 
 video{
-    width: 80%;
-    height: 50%;
+    width: 200%;
+    height: 150%;
 }
 
 .works-contents h1{
@@ -329,6 +329,7 @@ video{
 .foot{
     background-color: #000;
     text-align: center;
+    padding : 10px;
     
 }
 .foot a{
