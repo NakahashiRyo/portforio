@@ -316,17 +316,18 @@ video{
     font-size: 25px;
 }
 .works-title{
-    padding-top: 100px;
+    padding-top: 20px;
 }
 .works-text{
     text-align: left;
     width: 70%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .foot{
     background-color: #000;
+    
 }
 .foot a{
     text-align: center;
