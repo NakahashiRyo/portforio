@@ -335,8 +335,8 @@ video{
 .foot{
     background-color: #000;
     text-align: center;
-    height:30px;
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .foot a{
     color: #cccccc;
